@@ -1,5 +1,9 @@
 # ⚽ Football Players Gallery
 
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Glide](https://img.shields.io/badge/Glide-4.15-blue?style=for-the-badge)
+![RecyclerView](https://img.shields.io/badge/RecyclerView-1.3.1-green?style=for-the-badge)
 
 > Application Android permettant d'afficher une galerie des meilleurs joueurs de football avec images, notes, filtrage dynamique et animations.
 
@@ -8,7 +12,8 @@
 ## 🎬 Démo Vidéo
 
 
-https://github.com/user-attachments/assets/eaa6f454-102c-4e50-b7da-ca560d7f88ac
+https://github.com/user-attachments/assets/29c114d9-1ca2-4307-9547-8076bd2c8604
+
 
 
 ---
@@ -231,7 +236,15 @@ notifyItemChanged(position) → carte mise à jour
 
 ---
 
+## 🐛 Problèmes fréquents & Solutions
 
+| Problème | Cause | Solution |
+|---|---|---|
+| `Cannot resolve 'circleimageview'` | JitPack manquant | Ajouter `maven { url = uri("https://jitpack.io") }` dans `settings.gradle.kts` |
+| `Android resource linking failed` | Nom du thème incorrect | Vérifier que `themes.xml` et `AndroidManifest.xml` utilisent le même nom de thème |
+| Images non affichées | URLs bloquées | Utiliser des URLs Imgur `https://i.imgur.com/...` |
+| `getAdapterPosition() deprecated` | API obsolète | Remplacer par `getBindingAdapterPosition()` |
+| `Unexpected tokens` dans gradle | Syntaxe Groovy dans fichier KTS | Utiliser `implementation("...")` avec guillemets doubles |
 
-
+---
 
