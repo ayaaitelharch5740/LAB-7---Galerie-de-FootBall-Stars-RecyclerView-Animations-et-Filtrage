@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FootballPlayersGallery" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/grass_dark</item>
+        <item name="colorPrimaryDark">@color/grass_dark</item>
+        <item name="colorAccent">@color/accent_yellow</item>
+        <item name="android:windowBackground">@color/bg_main</item>
+        <item name="android:statusBarColor">@color/grass_dark</item>
+    </style>
+</resources>

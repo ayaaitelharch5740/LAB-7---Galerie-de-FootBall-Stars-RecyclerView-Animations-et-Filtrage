@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#F0F7F0</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="grass_dark">#2D6A4F</color>
+    <color name="grass_light">#52B788</color>
+    <color name="accent_yellow">#FFD60A</color>
+    <color name="accent_white">#FFFFFF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#555555</color>
+    <color name="toolbar_bg">#2D6A4F</color>
+    <color name="card_border">#52B788</color>
+</resources>

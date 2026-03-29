@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Corps du ballon blanc -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,5 A45,45 0 1,1 49.99,5 Z"/>
+
+    <!-- Pentagone central noir -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M50,28 L62,37 L57,51 L43,51 L38,37 Z"/>
+
+    <!-- Pentagones autour -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M50,5 L60,12 L57,24 L43,24 L40,12 Z"/>
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M72,18 L80,28 L74,38 L63,35 L62,22 Z"/>
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M78,50 L82,62 L72,68 L63,62 L66,50 Z"/>
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M22,18 L38,22 L37,35 L26,38 L20,28 Z"/>
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M22,50 L34,50 L37,62 L28,68 L18,62 Z"/>
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M60,72 L66,82 L54,88 L44,84 L43,72 Z"/>
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M40,72 L57,72 L56,84 L46,88 L34,82 Z"/>
+
+    <!-- Contour du ballon -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#333333"
+        android:strokeWidth="2"
+        android:pathData="M50,5 A45,45 0 1,1 49.99,5 Z"/>
+</vector>
