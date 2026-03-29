@@ -216,20 +216,6 @@ notifyItemChanged(position) → carte mise à jour
 
 ---
 
-## 👥 Joueurs inclus
-
-| Joueur | Club | Position | Note |
-|---|---|---|---|
-| Kylian Mbappé | Real Madrid | Attaquant | ⭐ 4.9 |
-| Erling Haaland | Man City | Attaquant | ⭐ 4.8 |
-| Vinicius Jr | Real Madrid | Ailier | ⭐ 4.7 |
-| Jude Bellingham | Real Madrid | Milieu | ⭐ 4.8 |
-| Pedri | FC Barcelone | Milieu | ⭐ 4.6 |
-| Rodri | Man City | Milieu déf. | ⭐ 4.9 |
-| Lamine Yamal | FC Barcelone | Ailier | ⭐ 4.7 |
-| Mohamed Salah | Liverpool | Ailier | ⭐ 4.7 |
-
----
 
 ## 📋 Patterns & Concepts Android utilisés
 
