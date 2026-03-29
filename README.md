@@ -7,10 +7,9 @@
 
 ## 🎬 Démo Vidéo
 
-```
+
 https://github.com/user-attachments/assets/eaa6f454-102c-4e50-b7da-ca560d7f88ac
 
-```
 
 ---
 
